@@ -1,0 +1,27 @@
+/* Fondo que cubre toda la pantalla */
+#splash-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000; /* Ajusta el color del fondo según sea necesario */
+  z-index: 900; /* Asegúrate de que el fondo esté detrás de la animación */
+}
+
+/* Contenedor de la animación */
+#splash-animation {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px; /* Ajusta el tamaño de la animación según sea necesario */
+  height: 300px; /* Ajusta el tamaño de la animación según sea necesario */
+  z-index: 1000; /* Asegúrate de que la animación esté encima del fondo */
+  transition: opacity 500ms ease-out; /* Duración del desvanecimiento */
+  opacity: 1;
+}
+
+#splash-animation.hidden {
+  opacity: 0;
+}

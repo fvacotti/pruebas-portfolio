@@ -3,15 +3,355 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Animación de Carga</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Facundo Vacotti // Diseño gráfico</title>
+    <link rel="shortcut icon" href="./img/icon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.9/lottie.min.js"></script>
 </head>
 
 <body>
-    <div id="splash-container"></div>
-    <script src="script.js"></script>
+    <!-- Pantalla de carga -->
+    <div id="splash-background"></div>
+    <div id="splash-animation"></div>
+    <!-- Header -->
+    <header>
+        <nav>
+            <ul class="nav-menu">
+                <li>
+                    <a href="#home" class="selected nav-link">home</a>
+                </li>
+                <li>
+                    <a href="#about" class="nav-link">sobre mí</a>
+                </li>
+                <li>
+                    <a href="#formacion" class="nav-link">formación</a>
+                </li>
+                <li>
+                    <a href="#experiencia" class="nav-link">experiencia</a>
+                </li>
+                <li>
+                    <a href="#work" class="nav-link">trabajos</a>
+                </li>
+                <li>
+                    <a href="#contacto" class="nav-link">contacto</a>
+                </li>
+                <li>
+                    <a href="https://drive.google.com/file/d/1iJI0gc07_KgfncdPgeHtxBhl6cSvliei"
+                        target="_blank">currículum</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <a href="#"><img src="img/home.svg" alt=""></a>
+        </nav>
+    </header>
+    <!-- Main -->
+    <main>
+        <!-- Landing -->
+        <section id="home">
+            <div class="line"></div>
+            <div class="title">
+                <h1>f.<span class="bold">vacotti</span></h1>
+                <br>
+                <p>// diseñador gráfico</p>
+            </div>
+            <a href="#about" class="btn-down">
+                <i class="fa-solid fa-chevron-down"></i>
+            </a>
+        </section>
+        <!-- Sobre mí -->
+        <section id="about">
+            <article class="about-data">
+                <h2>sobre mí.</h2>
+                <p>
+                    <span class="bold">¡Hola!</span>. Te doy la bienvenida a mi cv/portfolio.
+                    <br><br>
+                    Mi nombre es <span class="bold">Facundo Vacotti</span>. Tengo 24 años, resido en Lomas de Zamora
+                    (Buenos Aires, Argentina) y actualmente estoy en proceso de convertirme en <span
+                        class="bold">diseñador
+                        gráfico</span>.
+                    <br><br>
+                    Me encuentro cursando el quinto año de la licenciatura en <span class="bold">Diseño y Comunicación
+                        Visual</span> en la Universidad Nacional de Lanús (UNLa) y a la vez realizo diferentes cursos
+                    para continuar aprendiendo y especializándome en diversos rubros como por ejemplo el de programación
+                    y el diseño web.
+                    <br><br>
+                    Dentro de la esfera del diseño gráfico me apasionan por sobre todo el mundo del branding, la
+                    tipografía y el diseño editorial.
+                </p>
+            </article>
+        </section>
+        <!-- División -->
+        <div class="line-container">
+            <div class="line"></div>
+        </div>
+        <!-- Formación -->
+        <section id="formacion">
+            <article>
+                <h2>formación.</h2>
+                <!-- Línea de tiempo -->
+                <div class="timeline-items">
+                    <!-- Ítem -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2019 - en curso</div>
+                        <div class="timeline-content">
+                            <p>
+                                Licenciatura en <span class="bold">Diseño y Comunicación Visual</span> en la Universidad
+                                Nacional de Lanús (UNLa).
+                            </p>
+                        </div>
+                    </div>
+                    <!-- Ítem -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">dic. 2022</div>
+                        <div class="timeline-content">
+                            <p>
+                                Curso de <span class="bold">inglés</span> (nivel 4 CUI-UBA, A2.2 del MCER) brindado por
+                                el Programa de Lenguas
+                                Extranjeras para becarios Progresar del Ministerio de Educación de la Nación y el Centro
+                                Universitario de Idiomas (CUI).
+                            </p>
+                        </div>
+                    </div>
+                    <!-- Ítem -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">dic. 2022</div>
+                        <div class="timeline-content">
+                            <p>
+                                Curso <span class="bold">BA Multiplica 2.0</span> orientado a <span
+                                    class="bold">Programación Web</span> / <span class="bold">Front End
+                                    Developer</span>, <span class="bold">Gestión de Proyectos</span> e <span
+                                    class="bold">Inteligencia Emocional</span> brindado por el Gobierno de la Ciudad y
+                                la
+                                Universidad Teconológica Nacional (UTN).
+                            </p>
+                        </div>
+                    </div>
+                    <!-- Ítem -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">abr. 2023</div>
+                        <div class="timeline-content">
+                            <p>
+                                Curso <span class="bold">#SeProgramar</span> del trayecto formativo INTI en el marco de
+                                <span class="bold">Argentina Programa 4.0</span> (lenguajes Gobstones, JavaScript y
+                                Ruby).
+                            </p>
+                        </div>
+                    </div>
+                    <!-- Ítem -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">sep. 2023</div>
+                        <div class="timeline-content">
+                            <p>
+                                Curso de <span class="bold">inglés</span> (nivel 5 CUI-UBA, A2.2 del MCER) brindado por
+                                el Programa de Lenguas Extranjeras para becarios Progresar del Ministerio de Educación
+                                de la Nación y el Centro Universitario de Idiomas (CUI).
+                            </p>
+                        </div>
+                    </div>
+                    <!-- Ítem -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">sep. 2023</div>
+                        <div class="timeline-content">
+                            <p>
+                                Curso <span class="bold">Primeros pasos en el proceso de diseño de UX: Empatizar,
+                                    definir e idear</span>; brindado por Google a través de la plataforma Coursera.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- Ítem -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">sep. 2023</div>
+                        <div class="timeline-content">
+                            <p>
+                                Curso de HTML y CSS en el marco del segundo tramo de <span class="bold">Argentina
+                                    Programa 4.0</span> en ITMaster Academy.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- Ítem -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">oct. 2023</div>
+                        <div class="timeline-content">
+                            <p>
+                                Curso de JavaScript, JSON y Fetch en el marco del tercer tramo de <span
+                                    class="bold">Argentina Programa 4.0</span> en ITMaster Academy.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- Ítem -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">sep. 2023</div>
+                        <div class="timeline-content">
+                            <p>
+                                Curso de <span class="bold">inglés</span> (nivel 6 CUI-UBA, A2.2 del MCER) brindado por
+                                el Programa de Lenguas Extranjeras para becarios Progresar del Ministerio de Educación
+                                de la Nación y el Centro Universitario de Idiomas (CUI).
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <!-- División -->
+        <div class="line-container">
+            <div class="line"></div>
+        </div>
+        <!-- Experiencia -->
+        <section id="experiencia">
+            <article>
+                <h2>experiencia.</h2>
+                <!-- Línea de tiempo -->
+                <div class="timeline-items">
+                    <!-- Ítem -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2021 - hoy</div>
+                        <div class="timeline-content">
+                            <p>
+                                Diseñador gráfico / UX-UI freelance.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- Ítem -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2024 - hoy</div>
+                        <div class="timeline-content">
+                            <p>
+                                Diseñador gráfico en <span class="bold">Marketing & Ads</span>.
+                            </p>
+                        </div>
+                    </div>
+            </article>
+        </section>
+        <!-- División -->
+        <div class="line-container">
+            <div class="line"></div>
+        </div>
+        <!-- Trabajos -->
+        <section id="work">
+            <h2>trabajos.</h2>
+            <div class="work-container">
+                <div class="caja-br"><a href="./pages/branding.html">branding ></a></div>
+                <div class="caja-ed"><a href="./pages/editorial.html">editorial ></a></div>
+                <div class="caja-aq"><a href="./pages/arquigrafia.html">arquígrafia ></a></div>
+                <div class="caja-lt"><a href="./pages/lettering.html">lettering ></a></div>
+                <div class="caja-ux"><a href="./pages/uxui.html">diseño ux/ui ></a></div>
+            </div>
+        </section>
+        <!-- División -->
+        <div class="line-container">
+            <div class="line"></div>
+        </div>
+        <!-- Contacto -->
+        <section id="contacto">
+            <h2>contáctame.</h2>
+            <div class="form-container">
+                <div class="form">
+                    <form method="post" action="mailto:fvacotti@outlook.com? subject=¡Trabajemos juntos!"
+                        target="_blank" enctype="text/plain">
+
+                        <label for="nombre">nombre.</label>
+                        <input type="text" name="Nombre" id="nombre" placeholder="ej.: Juan" required>
+
+                        <label for="apellido">apellido.</label>
+                        <input type="text" name="Apellido" id="apellido" placeholder="ej.: Pérez">
+
+                        <label for="correo">correo.</label>
+                        <input type="email" name="Correo" id="correo" placeholder="ej.: juanperez@mail.com" required>
+
+                        <label for="tel">teléfono.</label>
+                        <input type="tel" name="Teléfono" id="tel" placeholder="1101010101">
+
+                        <label for="describe">trabajo a realizar.</label>
+                        <textarea name="Describe" id="describe" cols="30" rows="10"
+                            placeholder="Describí el trabajo que deseas realizar" required></textarea>
+
+                        <input class="send" type="submit" value="enviar">
+                    </form>
+                </div>
+                <!-- Vías alternativas -->
+                <div class="contacto-other">
+                    <ul>
+                        <li>
+                            <a href="tel:5411441000093" target="_blank" class="fa-brands fa-whatsapp"></a>
+                        </li>
+                        <li>
+                            <a href="https://t.me/fvacotti" target="_blank" class="fa-brands fa-telegram"></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/fvacotti" target="_blank"
+                                class="fa-brands fa-linkedin-in">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:fvacotti@outlook.com" target="_blank" class="fa-sharp fa-solid fa-envelope">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- División -->
+        <div class="line-container">
+            <div class="line"></div>
+        </div>
+    </main>
+    <!-- Footer -->
+    <footer>
+        <ul class="footer-data">
+            <li class="footer-title">
+                Facundo Vacotti
+            </li>
+            <li>
+                diseñador gráfico
+            </li>
+            <li>
+                ux-ui
+            </li>
+        </ul>
+        <!-- Redes sociales -->
+        <ul class="footer-redes">
+            <li>
+                <a href="https://www.behance.net/fvacotti" target="_blank" class="fa-brands fa-behance"></a>
+            </li>
+            <li>
+                <a href="https://facebook.com/fvacotti" target="_blank" class="fa-brands fa-facebook"></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/fvacotti" target="_blank" class="fa-brands fa-instagram"></a>
+            </li>
+            <li>
+                <a href="https://x.com/fvacotti" target="_blank" class="fa-brands fa-x-twitter"></a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/@fvacotti" target="_blank" class="fa-brands fa-youtube"></a>
+            </li>
+        </ul>
+    </footer>
+    <!-- Botón para subir -->
+    <a href="#" class="btn-up" id="btn-up">
+        <i class="fa-solid fa-chevron-up"></i>
+    </a>
+
+    <!-- Script -->
+    <script src="js/main.js"></script>
+    <script src="https://kit.fontawesome.com/5727d2ffb3.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
